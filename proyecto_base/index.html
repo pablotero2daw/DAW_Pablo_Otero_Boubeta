@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio - Estudiante DAW</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>💻 Mi Portfolio</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="inicio" class="hero">
+            <h2>¡Hola! Soy un futuro desarrollador web 🚀</h2>
+            <p>Bienvenido a mi portfolio digital. Aquí muestro los proyectos que estoy creando mientras aprendo <strong>frontend</strong> y <strong>backend</strong>.</p>
+            <button id="cta-button">Explora mis proyectos</button>
+        </section>
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="sobre-mi-content">
+                <img src="perfil.png" alt="Mi foto" class="profile-photo">
+                <div class="bio">
+                    <p>Soy estudiante del ciclo formativo de <strong>Desarrollo de Aplicaciones Web (DAW)</strong>.</p>
+                    <p>Me encanta aprender tecnologías nuevas y experimentar con el código. Mi objetivo es convertirme en un desarrollador fullstack.</p>
+                    <h3>Actualmente aprendiendo:</h3>
+                    <ul>
+                        <li>⚡ HTML5 & CSS3</li>
+                        <li>⚡ JavaScript ES6+</li>
+                        <li>⚡ Control de versiones con Git & GitHub</li>
+                        <li>⚡ Despliegue de aplicaciones web</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <h3>🌐 Primera Página Web</h3>
+                    <p>Mi primera página HTML con CSS básico.</p>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+                
+                <div class="proyecto-card">
+                    <h3>📝 Formulario de Contacto</h3>
+                    <p>Formulario interactivo con validación JavaScript.</p>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                
+                <div class="proyecto-card">
+                    <h3>📂 Mi GitHub</h3>
+                    <p>Repositorio con mis primeros proyectos y prácticas.</p>
+                    <a href="https://github.com/tu-usuario" target="_blank" class="github-link">Ver en GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">📩 Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Mi Portfolio - Estudiante DAW. Hecho con ❤️ y Git.</p>
+        <p><a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
