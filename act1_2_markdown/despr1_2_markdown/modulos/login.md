@@ -3,7 +3,7 @@
 
 ##  `modulos/login.md`
 
-```markdown
+
 # Módulo de Autenticación (Login)
 
 El módulo de **autenticación** permite verificar la identidad de los usuarios mediante credenciales seguras (email/usuario y contraseña).
@@ -35,3 +35,4 @@ sequenceDiagram
     R-->>A: Sesión válida
     A-->>F: Recurso autorizado
     F-->>U: Mostrar contenido
+```
