@@ -3,7 +3,7 @@
 
 ## `modulos/settings.md`
 
-```markdown
+
 # Módulo de Configuración
 
 El módulo de **configuración** permite personalizar las preferencias del usuario y los parámetros del sistema.
