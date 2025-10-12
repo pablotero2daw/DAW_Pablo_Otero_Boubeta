@@ -17,6 +17,7 @@ pie title Distribución de Asistencia Semanal
     "Ausencia Justificada" : 8
     "Ausencia Sin Justificar" : 4
     "Tardanza" : 1
+```
 
 ```mermaid
 %%{init: {'xyChart': {'width': 700, 'height': 400}}}%%
