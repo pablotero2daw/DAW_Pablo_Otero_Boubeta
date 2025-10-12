@@ -3,7 +3,7 @@
 
 ## `modulos/dashboard.md`
 
-```markdown
+
 # Módulo Dashboard
 
 El **Dashboard** es el panel principal donde el usuario visualiza información de rendimiento, asistencia y calificaciones.
@@ -17,7 +17,7 @@ pie title Distribución de Asistencia Semanal
     "Ausencia Justificada" : 8
     "Ausencia Sin Justificar" : 4
     "Tardanza" : 1
-    
+
 ```
 
 ```mermaid
