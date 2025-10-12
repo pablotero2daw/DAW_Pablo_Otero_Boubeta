@@ -1,9 +1,9 @@
----
 
 ## `instalacion.md`
 
 # Guía de Instalación y Puesta en Marcha
 ##  Requisitos previos
+
 ```markdown
 - **Node.js** (versión 18 o superior)
 - **npm** o **yarn**
