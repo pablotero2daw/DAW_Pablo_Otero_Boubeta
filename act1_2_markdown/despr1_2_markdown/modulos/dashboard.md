@@ -12,18 +12,14 @@ El **Dashboard** es el panel principal donde el usuario visualiza información d
 
 ## Widget de asistencia
 ```mermaid
-%%{init: {'themeVariables': { 
-    'pie1': '#00C853',
-    'pie2': '#2962FF',
-    'pie3': '#FFD600',
-    'pie4': '#D50000'
-}}}%%
+%%{init: {'themeVariables': { 'pie1': '#A3E4D7', 'pie2': '#F9E79F', 'pie3': '#F5B7B1', 'pie4': '#D7BDE2' }}}%%
 pie title Distribución de Asistencia Semanal
     "Presente" : 87
     "Ausencia Justificada" : 8
     "Ausencia Sin Justificar" : 4
     "Tardanza" : 1
 
+```
 
 ```mermaid
 %%{init: {'xyChart': {'width': 700, 'height': 400}}}%%
